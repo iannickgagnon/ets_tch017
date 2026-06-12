@@ -2,11 +2,12 @@
 
 ## Construire un ordinateur à partir de rien (ou presque)
 
-Un ordinateur moderne est une machine extrêmement complexe : processeur, mémoire vive, carte graphique, système d’exploitation, langage de programmation, compilateur, etc. Pourtant, derrière cette complexité se cache une idée étonnamment simple : **un ordinateur manipule de l’information représentée par des valeurs binaires (vrai/faux, 1/0, allumé/éteint, etc.)**. Ainsi, pour mieux apprivoiser cette complexité, nous commençons par apprendre à manipuler ces valeurs qu'on appelle **booléennes**.
+Un ordinateur moderne est une machine complexe : processeur, mémoire vive, périphériques d'entrées et de sorties, carte graphique, système d’exploitation, langage de programmation, compilateur, etc. Pourtant, derrière cette complexité se cache une idée étonnamment simple : **un ordinateur manipule de l’information représentée par des valeurs binaires (vrai/faux, 1/0, allumé/éteint, etc.) aussi appelées booléennes**. Ainsi, nous commençons par présenter des éléments de **logique booléenne** pour apprendre à manipuler les manipuler.
 
-Dans ce cours, nous allons adopter une approche constructive. Plutôt que de seulement décrire les composantes d’un ordinateur, nous allons progressivement les bâtir. Nous commencerons avec des éléments très simples, puis nous les combinerons pour former des circuits de plus en plus puissants. 
+Dans ce cours, nous ne nous limiterons pas à décrire les composantes d’un ordinateur, mais allons progressivement les construire. Nous commencerons avec des éléments très simples, puis nous les combinerons pour former des circuits de plus en plus puissants. 
 
-Le contenu de ce cours est adapté du livre intitulé _The Elements of Computing Systems_ de Noam Nisan et Shimon Schocken dont le [https://www.nand2tetris.org/](https://www.nand2tetris.org/)
+>[!NOTE]
+> Le contenu présenté est adapté de la deuxième édition du livre intitulé _The Elements of Computing Systems_ de Noam Nisan et Shimon Schocken. Le site web de référence est le suivant: [https://www.nand2tetris.org/](https://www.nand2tetris.org/).
 
 ## Pourquoi commencer par la logique booléenne?
 
